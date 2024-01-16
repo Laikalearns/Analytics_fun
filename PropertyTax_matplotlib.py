@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-#pepare your data
+#prepare your data (all faux data)
 tax_years = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022]
 tax_property = [10000, 10500, 11200, 11800, 20000, 21000, 21500, 22500]
 
