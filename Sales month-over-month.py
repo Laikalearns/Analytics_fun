@@ -8,7 +8,8 @@ Created on Sun Apr  3 19:33:16 2022
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("C:\\Users\\auxil\Desktop\\py4e\\PANDAS - matlab\\company_sales_data.csv")
+#Choose your file path
+df = pd.read_csv("C:\\company_sales_data.csv")
 monthlist = df ['month_number'].tolist()
 profitlist = df ['total_profit'].tolist()
 
